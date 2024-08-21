@@ -1,0 +1,13 @@
+.navbar{
+    background: rgba(238, 232, 232, 0.719);
+    transition: all 1s;
+}
+ul{
+    list-style-type: none;
+}
+ul li a:hover{
+    color: rgb(90, 140, 247);
+    transition: all 0.5s;
+
+}
+

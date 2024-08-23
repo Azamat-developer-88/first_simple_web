@@ -33,7 +33,7 @@ function ExampleBox() {
         className="box3 bgfon rounded-2xl overflow-hidden w-32 h-24 cursor-pointer"
       >
         <img 
-          src="http://jordansdaily.com/wp-content/uploads/2016/09/jordan-1-white-green-3.png" 
+          src="https://sneakerbardetroit.com/wp-content/uploads/2021/04/Air-Jordan-1-High-Do-The-Right-Thing-332550-131-Release-Date.png" 
           alt="Shoes" 
         />
       </div>

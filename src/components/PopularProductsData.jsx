@@ -15,7 +15,7 @@ export const ExProducts=[
         id:3,
         name:"Air Max 90",
         price:"$90",
-        image:"https://static.tildacdn.com/tild3730-6230-4538-b431-363237353036/159252861_w640_h640_.jpg"
+        image:"https://pnghq.com/wp-content/uploads/tennis-shoes-png-download-free-png-images-32078.png"
     },
     {
         id:4,

@@ -4,10 +4,10 @@ import  {ExProducts}  from './PopularProductsData'
 import "./ProductsStyle.css"
 function Products() {
   return (
-    <div className="container mt-32 w-full mx-auto px-4 py-8">
+    <div className="container mt-32 w-full mx-auto px-4 py-8" id='products'>
       <div className="font-medium text-4xl "><span>Our</span> <span className='text-red-500'>Popular</span> <span>Products</span></div>
       <p className="mt-5">Experience top-notch quality and style with our sought-after selections. Discover a world of comfort, design, and value</p>
-      <div className="mt-10 grid grid-cols-3 gap-4 lg:grid-flow-col  md:flex md:gap-4 sm:gap-6 justify-center">
+      <div className="mt-10 grid grid-cols-2 gap-24  md:flex md:gap-4  justify-center">
         {ExProducts.map((product) => (
           <div key={product.id} className=" mt-10">
             <div className=" gap-2">

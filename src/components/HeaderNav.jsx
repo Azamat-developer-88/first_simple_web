@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Login from './UseForm';
 import './HeaderNavStyle.css';
+import {NavHashLink as NavLink } from 'react-router-hash-link';
+
 
 function HeaderNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,13 +25,13 @@ function HeaderNav() {
     <div>
     <ul className="navbar-menu hidden space-x-8 font-bold text-red-500 md:flex lg:flex">
       <li>
-        <a href="https://www.nike.com/">Home</a></li>
+        <NavLink className="active" smooth to="/path#home" >Home</NavLink></li>
       <li>
-        <a href="https://www.nike.com/">Products</a></li>
+        <NavLink className="active" to="/path#products">Products</NavLink></li>
       <li>
-        <a href="https://www.nike.com/">About</a></li>
+        <NavLink className="active" to="/path#about">About</NavLink></li>
       <li>
-        <a href="https://www.nike.com/">Contact</a></li>
+        <NavLink className="active" to="/path#footer">Contact</NavLink></li>
      </ul>
     </div>
       

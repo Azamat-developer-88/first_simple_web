@@ -7,7 +7,8 @@ function ExampleBox() {
   };
 
   return (
-    <div className={`container  relative  justify-center items-center w-full md:w-screen md:h-screen  sm:w-full  h-96 rounded-3xl    mt-20 mx-auto px-4 py-8 ${bgClass}`}>
+    <div className="container w-full mx-auto px-4 py-8">
+      <div className={` w-full md:w-screen md:h-screen  sm:w-full  h-96 rounded-3xl    mt-20 ${bgClass}`}>
       <div 
         onClick={() => handleClick("bgfon-1")} 
         className="box1 bgfon rounded-2xl overflow-hidden w-32 h-24 cursor-pointer"
@@ -36,6 +37,7 @@ function ExampleBox() {
           alt="Shoes" 
         />
       </div>
+    </div>
     </div>
   );
 }

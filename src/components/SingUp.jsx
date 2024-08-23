@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SingUp() {
+function SingUp( ) {
   return (
     <div className="container md:flex md:gap-20 w-full mx-auto px-4 py-8">
       <div className="text-3xl mt-20 font-bold text-center">

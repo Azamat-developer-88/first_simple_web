@@ -3,7 +3,7 @@ import { FaCircleArrowRight } from "react-icons/fa6";
 import ExampleBox from './ExampleBox';
 function HeaderBox() {
   return (
-    <div className="container md:flex  w-full mx-auto px-4 py-8">
+    <div className="container xl:flex  w-full mx-auto px-4 py-8" id='home'>
     <div >
     <div className='mt-20 p-4 text-red-500'><p>Our Summer collections</p></div>
         <div className='text-left p-6  mt-10 font-bold text-7xl'>

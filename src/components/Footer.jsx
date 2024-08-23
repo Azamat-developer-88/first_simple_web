@@ -5,7 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { TiSocialFacebook } from "react-icons/ti";
 function Footer() {
   return (
-    <div className="footer md:flex text-white hover:cursor-pointer bg-black mx-auto px-4 py-8">
+    <div className="footer md:flex text-white hover:cursor-pointer bg-black mx-auto px-4 py-8" id='footer'>
       <div className='text-left p-2 w-72 text-xl'>
         <h2 className='text-3xl font-bold'>Nike</h2>
         <p>Get shoes ready for the new term at your nearest Nike store. Find Your perfect Size In Store. Get Rewards</p>
@@ -14,7 +14,7 @@ function Footer() {
             </div>      
       </div>
       <div className="flex hoverstyle gap-20 md:mt-0 mt-24">
-        <div className='grid  hover:text-gray-500 gap-2 p-2'>
+        <div className='grid  gap-2 p-2'>
             <h2 className='text-3xl mb-8 font-bold'>Products</h2>
             <p>Air Force 1</p>
             <p>Air Jordan</p>
@@ -26,7 +26,7 @@ function Footer() {
             <p>Air Max 720</p>
             <p>Air Max 720</p>
         </div>
-        <div className='grid gap-2  hover:text-gray-500 p-2'>
+        <div className='grid gap-2  p-2'>
             <h2 className='text-3xl mb-8 font-bold'>Help</h2>
             <p>About Us</p>
             <p>FAQ</p>

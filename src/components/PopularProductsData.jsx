@@ -9,7 +9,7 @@ export const ExProducts=[
         id:2,
         name:"Air Jordan 1",
         price:"$100",
-        image:"http://jordansdaily.com/wp-content/uploads/2016/09/jordan-1-white-green-3.png"
+        image:"https://sneakerbardetroit.com/wp-content/uploads/2021/04/Air-Jordan-1-High-Do-The-Right-Thing-332550-131-Release-Date.png"
     },
     {
         id:3,
